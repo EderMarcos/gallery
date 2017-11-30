@@ -1,0 +1,36 @@
+.no-margin {
+	margin: 0px !important;
+}
+
+.no-padding {
+	padding: 0px !important;
+}
+
+/*=============================================
+Gallery
+=============================================*/
+#gallery {
+    position:relative;
+    margin:auto;
+    width:100%;
+}
+
+#gallery ul {
+    padding:20px;
+    list-style: none;
+}
+
+#gallery ul li{
+    padding:10px;
+    cursor:pointer;
+    transition:.6s;
+}
+
+#gallery ul li:hover{
+    transition:.6s;
+    opacity:.6;
+}
+
+#gallery ul li img{
+    width:100%;
+}
